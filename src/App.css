@@ -1,0 +1,200 @@
+/* ================= NAVBAR ================= */
+.header-navbar {
+  background-color: #000;
+  padding: 8px 15px;
+}
+
+/* LOGO */
+.header-logo {
+  height: 55px;
+  width: auto;
+}
+
+/* MENU HAMBURGUESA */
+.header-toggler {
+  border: none !important;
+}
+
+.header-toggler .navbar-toggler-icon {
+  filter: invert(35%);
+}
+
+/* ================= SEARCH DESKTOP ================= */
+.header-search-form {
+  max-width: 300px;
+}
+
+.header-input {
+  background-color: white !important;
+  border: 1px solid #333 !important;
+  color: black !important;
+}
+
+.header-search-btn {
+  background-color: #0d6efd !important;
+  border: none;
+  padding: 6px 16px;
+  white-space: nowrap;
+}
+
+.header-search-btn:hover {
+  background-color: #0b5ed7;
+}
+
+/* ================= USERNAME ================= */
+.header-user {
+  color: white !important;
+}
+
+.header-username {
+  color: #e50914 !important;
+}
+
+/* ================= LOGOUT ================= */
+.header-logout-btn {
+  background-color: #e50914 !important;
+  color: white !important;
+  border: white !important;
+  padding: 6px 16px;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.header-logout-btn:hover {
+  background-color: #b00610 !important;
+}
+
+/* ================= MOBILE SEARCH ================= */
+.mobile-search-input {
+  background-color: #1b1b1b !important;
+  border: 1px solid #333 !important;
+  color: white !important;
+}
+
+.mobile-search-input::placeholder {
+  color: #bbb !important;
+  opacity: 1;
+}
+
+.mobile-search-btn {
+  background-color: #0d6efd !important;
+  border: none !important;
+}
+
+/* ================= MAIN ================= */
+main {
+  padding-top: 85px;
+}
+
+@media (min-width: 768px) {
+  main {
+    padding-top: 85px;
+  }
+}
+
+/* ================= BOTONES ================= */
+.btn-trailer {
+  background-color: #e50914 !important;
+  color: white !important;
+  border: none;
+}
+
+.btn-trailer:hover {
+  background-color: #b00610 !important;
+}
+
+.btn-watch {
+  background-color: #0d6efd !important;
+  color: white !important;
+  border: none;
+}
+
+.btn-watch:hover {
+  background-color: #0b5ed7 !important;
+}
+
+.btn-hover-blue:hover {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+  border-color: #0d6efd !important;
+}
+
+/* ================= HOME ================= */
+.home-container {
+  position: relative;
+}
+
+/* ================= SIDEBAR ================= */
+/* Sidebar overlay */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 250px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 8px rgba(0,0,0,0.3);
+  z-index: 1050;
+  transition: left 0.3s ease;
+}
+
+.sidebar-overlay.open {
+  left: 0;
+}
+
+.overlay-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 1040;
+}
+
+/* Botón filtrar */
+.filter-toggle {
+  position: fixed;
+  margin-top: 100px;
+  margin-bottom: 1rem;
+  align-self: flex-end;
+  z-index: 1060;
+}
+
+@media (max-width: 768px) {
+  .filter-toggle {
+    top: 160px;
+  }
+}
+
+/* Contenido principal */
+.movies-content {
+  margin-top: 0;
+}
+
+/* Sidebar buttons */
+.sidebar-overlay .btn {
+  margin-bottom: 0.2rem;
+  border-color: #6c757d;
+  color: #6c757d;
+}
+
+.sidebar-overlay .btn:hover,
+.sidebar-overlay .btn:focus {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.sidebar-overlay .btn-danger {
+  background-color: #dc3545;
+  border-color: #dc3545;
+  color: #fff;
+}
+
+.sidebar-overlay .btn-danger:hover,
+.sidebar-overlay .btn-danger:focus {
+  background-color: #dc3545 !important;
+  border-color: #dc3545 !important;
+  color: #fff !important;
+}
