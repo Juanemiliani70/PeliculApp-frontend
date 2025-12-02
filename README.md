@@ -1,16 +1,23 @@
-# React + Vite
+# PeliculApp – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PeliculApp is a movie browsing platform where users can register, log in, search for movies and view details.  
+This repository contains the **React frontend** of the project.
 
-Currently, two official plugins are available:
+## Live Demo
+https://pelicul-app-frontend-1giz.vercel.app/
+## Features
+- User authentication (login & register)
+- Search movies by title
+- Movie detail page with description, movie information and admin review.
+- Responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- React
+- React Router
+- Axios
+- Bootstrap / React-Bootstrap
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Run locally
+```bash
+npm install
+npm run dev
