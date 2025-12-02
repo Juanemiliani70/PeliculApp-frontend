@@ -1,4 +1,4 @@
-import { createContext, useState, useEffect } from "react";
+import React, { createContext, useState, useEffect } from "react";
 
 const AuthContext = createContext({});
 
@@ -11,7 +11,7 @@ export const AuthProvider = ({ children }) => {
       const storedUser = localStorage.getItem("user");
       if (storedUser) setAuth(JSON.parse(storedUser));
     } catch (error) {
-      console.error("Failed to parse user from localStorage", error);
+      console.error("Error al analizar el usuario desde el localStorage", error);
     } finally {
       setLoading(false);
     }
