@@ -20,6 +20,7 @@ This repository contains the **React frontend** of the project.
 npm install
 npm run dev
 
-## YouTube Demo 👇
-https://youtu.be/VGcds_FpzjY
+## 🎥 Video Demo
+[![Video Demo](https://img.youtube.com/vi/VGcds_FpzjY/0.jpg)](https://youtu.be/VGcds_FpzjY)
+
 
