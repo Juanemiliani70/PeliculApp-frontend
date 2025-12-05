@@ -16,11 +16,8 @@ This repository contains the **React frontend** of the project.
 - Bootstrap / React-Bootstrap
 
 ## Run locally
-```bash
 npm install
 npm run dev
 
 ## 🎥 Video Demo
-[![Video Demo](https://img.youtube.com/vi/VGcds_FpzjY/0.jpg)](https://youtu.be/VGcds_FpzjY)
-
-
+👉 https://youtu.be/VGcds_FpzjY
